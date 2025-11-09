@@ -8,6 +8,8 @@ web:
 	python3 -m pygbag main.py
 
 web-build:
+	python3 -m pip install --user pygbag
+	python3 -m pip install --user pygame
 	python3 -m pygbag --build main.py
 
 init:
