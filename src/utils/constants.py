@@ -12,11 +12,11 @@ PLAYERS = (
         "assets/sprites/bluebird-midflap.png",
         "assets/sprites/bluebird-downflap.png",
     ),
-    # yellow bird
+    # yellow bird (trump-jetpack)
     (
-        "assets/sprites/yellowbird-upflap.png",
-        "assets/sprites/yellowbird-midflap.png",
-        "assets/sprites/yellowbird-downflap.png",
+        "assets/sprites/trump-jetpack.png",
+        "assets/sprites/trump-jetpack.png",
+        "assets/sprites/trump-jetpack.png",
     ),
 )
 
@@ -28,6 +28,6 @@ BACKGROUNDS = (
 
 # list of pipes
 PIPES = (
-    "assets/sprites/pipe-green.png",
+    "assets/sprites/mamdani-pipe.png",
     "assets/sprites/pipe-red.png",
 )

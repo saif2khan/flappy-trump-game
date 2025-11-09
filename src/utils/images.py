@@ -38,10 +38,10 @@ class Images:
     def randomize(self):
         # select random background sprites
         rand_bg = random.randint(0, len(BACKGROUNDS) - 1)
-        # select random player sprites
-        rand_player = random.randint(0, len(PLAYERS) - 1)
-        # select random pipe sprites
-        rand_pipe = random.randint(0, len(PIPES) - 1)
+        # always use trump player (index 2)
+        rand_player = 2
+        # always use mamdani-pipe (index 0)
+        rand_pipe = 0
 
         self.background = pygame.image.load(BACKGROUNDS[rand_bg]).convert()
         self.player = (

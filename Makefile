@@ -2,18 +2,18 @@ default:
 	@make run
 
 run:
-	python main.py
+	python3 main.py
 
 web:
-	pygbag main.py
+	python3 -m pygbag main.py
 
 web-build:
-	pygbag --build main.py
+	python3 -m pygbag --build main.py
 
 init:
-	@pip install -U pip; \
-	pip install -e ".[dev]"; \
-	pre-commit install; \
+	@pip3 install -U pip; \
+	pip3 install -e ".[dev]"; \
+	python3 -m pre_commit install || true; \
 
 pre-commit:
 	pre-commit install
